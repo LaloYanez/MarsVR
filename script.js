@@ -16,7 +16,7 @@ function startexp() {
   const selection = document.getElementById("selection").components.sound;
   selection.playSound();
   const ambient = document.getElementById("ambient").components.sound;
- // ambient.playSound();
+  ambient.playSound();
 }
 
 if (scene.hasLoaded) {
