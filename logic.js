@@ -191,7 +191,7 @@ AFRAME.registerComponent("logic", {
         }
         if (found != 3) {
           if (found == 2) {
-            timing = setTimeout(showdrones, 1200);
+            timing = setTimeout(showdrones, 2200);
             console.log("Show Drones");
           }
           if (found == 1) {
@@ -217,7 +217,7 @@ AFRAME.registerComponent("logic", {
         }
         if (found != 3) {
           if (found == 2) {
-            timing = setTimeout(showdrones, 1200);
+            timing = setTimeout(showdrones, 2200);
             console.log("Show Drones");
           }
           if (found == 1) {
@@ -243,7 +243,7 @@ AFRAME.registerComponent("logic", {
         }
         if (found != 3) {
           if (found == 2) {
-            timing = setTimeout(showdrones, 1200);
+            timing = setTimeout(showdrones, 2200);
             console.log("Show Drones");
           }
           if (found == 1) {
@@ -413,7 +413,7 @@ AFRAME.registerComponent("pushright", {
 
 AFRAME.registerComponent("wallpushleft", {
   schema: {
-    posx: {default: 324},
+    posx: {default: 274},
   },
   init: function () {
     const el = this.el,
@@ -438,7 +438,7 @@ AFRAME.registerComponent("wallpushleft", {
 
 AFRAME.registerComponent("wallpushright", {
   schema: {
-    posx: {default: -345},
+    posx: {default: -295},
   },
   init: function () {
     const el = this.el,
