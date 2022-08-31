@@ -1,1 +1,0 @@
-# MarsVR competition project.
